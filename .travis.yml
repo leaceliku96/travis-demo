@@ -13,7 +13,7 @@ script:
   - chmod +x hello.sh
   - ./hello.sh
   
- after_script:
+after_script:
   - echo "End of pipeline"
   
   
